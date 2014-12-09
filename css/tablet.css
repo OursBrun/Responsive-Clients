@@ -1,0 +1,19 @@
+@media only screen and (max-width : 992px) {
+
+	@media only screen and (orientation : portrait) {
+	body .wrapper > aside {
+	    display:none;
+	    }
+	}
+	body { 
+	    font-size: 56.25%; /* 1em = 9px */ 
+	    background: linear-gradient(to bottom, #efefef, white) no-repeat;
+	}
+	#albums article {
+	    margin-right: 12px;
+	    width : 30%;
+	    margin-bottom: 30px;
+	    font-size: 1.3em;
+	    color: #89949b;
+	}
+}

@@ -1,0 +1,15 @@
+@media only screen and (min-width : 1200px)
+{
+body { 
+    font-size: 75%; /* 1em = 12px */ 
+    background: linear-gradient(to bottom, #efefef, white) no-repeat;
+}
+#albums article {
+    margin-right: 12px;
+    width : 20%;
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    color: #89949b;
+}
+}
+	

@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'My Lucida';
+    src: url('../font/LucidaGrande.ttf');
+    font-style: normal; 
+    font-weight: bold;
+}
+
+* { 
+    font-family: 'My Lucida', Console;
+}
+
+html{
+    font-size: 16px;
+}
+body { 
+    font-size: 62.5%; /* 1em = 10px */ 
+    background: linear-gradient(to bottom, #efefef, white) no-repeat;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper { 
+    width: 75%; /* Le contexte ici est le body, d'où 900px/12OOpx=0.75 */ 
+    padding: 2.777777778%; /* Le contexte ici est le Wrapper, d'où 25px/900px=0.02777777778 */ 
+    margin: 0 auto;
+}
+
+body > header {
+    margin-bottom: 1,5625%; /* Le contexte ici c'est le body, d'où 20/1200=0,015625 */
+    background: white;
+    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+}
+
+header .logo-search {
+    float: left;
+    width: 55.55555556; /* Le contexte ici c'est le wrapper, d'où 500px/900px=0,5555555556 */
+   
+}
+
+header .logo-search img, header .logo-search form  {
+    float: left;
+}
+
+header .user {
+    float: right;
+}
+
+header .user a {
+    font-size: 1.3em;
+    color: #89949b;
+}
+
+body .wrapper > aside {
+    float: left;
+    width: 15.625%; /* Le contexte ici c'est le Wrapper */
+}
+body .wrapper > main {
+    float: left;
+    width: 78.125%; /* Le contexte ici c'est le Wrapper */
+}
+
+main header aside {
+    float: left;
+}
+main header .name {
+    float: left;
+}
+
+main header .statistics {
+    float: left;
+}
+
+main header .links {
+    float: right;
+}
+
+main h2 {
+    float: left;
+}
+main .station {
+    float: right;
+}
+
+main article {
+    display: inline-block;
+}
+
+h3 {
+    color: #b8c3c9;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 8196721311%;
+}
+
+nav ul li a { 
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #828c92;
+}
+
+nav ul li a:hover {
+    color: #fe7f19;
+}
+
+nav ul li {
+    margin-top: 0.5em;
+}
+
+main header aside img {
+    border: 0.1em solid #dadada;
+    border-radius: 50%;
+    box-shadow: 0 0 0.5em #cecece;
+    max-width: 100%;
+}
+
+nav ul li:last-child {
+    margin-bottom: 3em;
+}
+
+.name-photo aside { 
+    margin-right: 2em;
+}
+.name-photo aside img{ 
+    width:50px;
+}
+
+h1 {
+    color: #4b5c66;
+    font-size: 2.4em;
+    font-weight: normal;
+    margin-bottom: 0.8em;
+}
+
+.name p { 
+    color: #a0aab1;
+    font-size: 1.2em;
+}
+
+.name p img { 
+    margin-left: 1.2em;
+    max-width: 100%;
+}
+
+
+.stats-links {
+    color: #4b5c66;
+    font-size: 1.2em;
+    padding: 1.5em 0px 1em 0px;
+    border-bottom: 0.1em solid #e1e6e9;
+    margin-bottom: 2em;
+}
+
+.stats-links span {
+    margin-right: 2em;
+}
+
+.stats-links a {
+    margin-left: 2em;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #4b5c66;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: normal;
+    color: #4b5c66;
+}
+
+
+input.search {
+    background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
+    box-shadow: none;
+    height: 28px;
+    width: 300px;
+    font-size: 13px;
+    padding: 3px 6px 3px 25px;
+    border: 1px solid #d0dde9;
+    margin: 0;
+    border-radius: 15px;
+    top: 11px;
+    margin-left: 40px;
+    box-shadow: inset 1px 1px 5px #d5d5d5;
+}
+
+input.submit {
+    display: none;
+}
+
+.station {
+    font-size: 12px;
+    color: #008fd5;
+    border-radius: 5px;
+    border: 1px solid #b8c3c9;
+    cursor: pointer;
+    padding: 7px 10px 7px 30px;
+    box-shadow: 1px 1px #d5d5d5;
+    background: url("../img/icon/station.png") no-repeat 8px;
+}
+
+.station:hover {
+    background-color: #0A90D5;
+    color: white;
+    transition: all 0.3s ease 0;
+    background-image: url("../img/icon/station-white.png");
+}
+
+#albums { 
+    margin-top: 20px;
+    width: 100%;
+}
+
+#albums article {
+    margin-right: 12px;
+    width : 23%;
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    color: #89949b;
+}
+
+#albums article img {
+    border: 1px solid #cbcbcb;
+    transition: all 0.3s ease 0;
+    width: 100%;
+}
+
+#albums article figure { 
+
+    width: 100%;
+}
+
+#albums article img:hover {
+    box-shadow: 0 0 15px #848484;
+    transform: scale(1.1) rotate(-3deg);
+}
+
+#albums article figcaption {
+	overflow : hidden;
+	white-space: nowrap;
+    color: #4b5c66;
+    margin-top: 6px;
+}
+
+#albums article .artist, #albums article .count {
+    margin-top: 4px;
+    overflow : hidden;
+    white-space: nowrap;
+}
+
+#albums .explicit {
+    color: #ff5d5d;
+    margin-left: 5px;
+}
+
+nav.browse a, nav.music a {
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
+nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
+nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
+nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
+nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
+nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+
+
+
+

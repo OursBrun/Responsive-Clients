@@ -1,0 +1,37 @@
+@media only screen and (max-width: 768px){
+	body { 
+	    font-size: 53.125; /* 1em = 8.5px */ 
+	    background: linear-gradient(to bottom, #efefef, white) no-repeat;
+	}
+	#albums article {
+	    margin-right: 12px;
+	    width : 45%;
+	    margin-bottom: 30px;
+	    font-size: 1.3em;
+	    color: #89949b;
+	}
+	.name-photo aside img{ 
+    width:100%;
+}
+.links, header .logo-search form {
+	display: none;
+}
+header .logo-search {
+	width: 55.55555556;
+	margin: 0 auto;
+
+}
+
+header .logo-search img {
+	
+}
+header .user {
+  display: none;
+}
+
+.wrapper { 
+    width: 90%; /* Le contexte ici est le body, d'où 900px/12OOpx=0.75 */ 
+    padding: 1%; /* Le contexte ici est le Wrapper, d'où 25px/900px=0.02777777778 */ 
+    margin: 0 auto;
+}
+}
